@@ -10,7 +10,7 @@ var RunButton = React.createClass({
   },
 
   handleClick: function(){
-    this.setState({likes: this.state.likes +=1});
+    this.setState({likes: this.state.clicked +=1});
   },
 
   render: function(){
