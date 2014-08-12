@@ -14,7 +14,10 @@ var RunButton = React.createClass({
 
   render: function(){
     return (
+        <div>
         <button onClick={this.handleClick}>{this.props.name}</button>
+        <strong>Clicked: {this.state.clicked}</strong>
+        </div>
       )
   }
 

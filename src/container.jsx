@@ -5,7 +5,7 @@ var Container = React.createClass({
     return (
       <div className="row">
         <div className="col-md-4">
-         <RunList />
+         <RunList runDates={runDates}/>
         </div>
         <div className="col-md-8">
           Cool2
