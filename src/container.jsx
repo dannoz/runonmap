@@ -1,6 +1,4 @@
 /** @jsx React.DOM */
-var React = require("react");
-var RunList = require("./sidebar.jsx");
 var Container = React.createClass({
 
   render: function() {

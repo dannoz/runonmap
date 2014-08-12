@@ -1,6 +1,5 @@
 /** @jsx React.DOM */
 var runDates = ["11/08/14", "05/08/14","01/08/14"];
-var React = require("react");
 
 var RunButton = React.createClass({
   getInitialState: function(){
