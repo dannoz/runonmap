@@ -2,6 +2,10 @@
 logs
 *.log
 
+*.DS_STORE
+
+build
+
 # Runtime data
 pids
 *.pid
